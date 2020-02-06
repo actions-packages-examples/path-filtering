@@ -1,0 +1,16 @@
+name: branches__feature-bug-paths__alpha-zeta
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'bug/**'
+    paths:
+      - 'alpha/**'
+      - 'zeta/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0
