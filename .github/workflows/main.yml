@@ -1,4 +1,4 @@
-name: branches__feature-bug-paths__alpha-zeta
+name: Main
 
 on:
   push:
