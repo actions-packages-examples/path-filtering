@@ -7,7 +7,7 @@ on:
       - 'bug/**'
     paths:
       - 'alpha/**'
-      - 'zeta/**
+      - 'zeta/**'
 
 jobs:
   build:
